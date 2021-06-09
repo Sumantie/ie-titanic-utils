@@ -11,3 +11,7 @@ requires = [
     "pandas"
 ]
 
+[tool.flit.metadata.requires-extra]
+dev = [
+    "black"
+]
